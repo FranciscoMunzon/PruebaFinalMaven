@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Aleatorio {
 
-    // Para conseguir el número aleatorio con el rango proporcionado
+    // Método para conseguir el número aleatorio con el rango proporcionado
     public int numeroAleatorio(int rango) {
         Random rand = new Random();
         if (validarRango(rango)) {
@@ -17,7 +17,7 @@ public class Aleatorio {
         return rango;
     }
 
-    // Validador para evitar que entren rangos inválidos
+    // Método para validar el rango para evitar que entren rangos inválidos
     public boolean validarRango(int rango) {
         if (rango <= 0) {
             return false;

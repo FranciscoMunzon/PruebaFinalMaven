@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AleatorioTest {
-
     @Test
     void numeroAleatorio() {
         int rango = 5;
@@ -18,9 +17,6 @@ class AleatorioTest {
             resultado = 0;
         }
         assertEquals(0, resultado);
-
-
-
     }
 
     @Test
