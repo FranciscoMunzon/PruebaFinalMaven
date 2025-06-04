@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1734762e-a6c2-4391-9398-c83882f50928" name="Changes" comment="Tercer punto de control">
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/vedruna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/vedruna/Main.java" afterDir="false" />
+    <list default="true" id="1734762e-a6c2-4391-9398-c83882f50928" name="Changes" comment="Cuarto punto de control">
+      <change afterPath="$PROJECT_DIR$/src/test/java/es/vedruna/AleatorioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/vedruna/Aleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/vedruna/Aleatorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
       <list>
         <option value="Class" />
         <option value="Dockerfile" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,6 +35,9 @@
     "accountId": "caabdb9b-76d5-4d16-9e70-b7dc03891fea"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -45,12 +51,23 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
+    "JUnit.AleatorioTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="es.vedruna" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -116,13 +133,55 @@
       <option name="project" value="LOCAL" />
       <updated>1749060231142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tercer punto de control">
+      <option name="closed" value="true" />
+      <created>1749060340132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749060340132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tercer punto de control">
+      <option name="closed" value="true" />
+      <created>1749060347098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749060347098</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tercer punto de control">
+      <option name="closed" value="true" />
+      <created>1749060525203</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749060525203</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cuarto punto de control">
+      <option name="closed" value="true" />
+      <created>1749060660815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749060660815</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cuarto punto de control">
+      <option name="closed" value="true" />
+      <created>1749060684364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749060684364</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer punto de control" />
     <MESSAGE value="Segundo punto de control" />
+    <MESSAGE value="Merge remote-tracking branch 'GitHub/main'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/es/vedruna/Aleatorio.java&#10;#&#9;src/main/java/es/vedruna/Main.java" />
     <MESSAGE value="Tercer punto de control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tercer punto de control" />
+    <MESSAGE value="Cuarto punto de control" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cuarto punto de control" />
   </component>
 </project>
