@@ -1,0 +1,29 @@
+Index: src/main/java/es/vedruna/Aleatorio.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package es.vedruna;\r\n\r\nimport java.util.List;\r\nimport java.util.Random;\r\n\r\npublic class Aleatorio {\r\n\r\n    // Para conseguir el número aleatorio con el rango proporcionado\r\n    public int numeroAleatorio(int rango) {\r\n        Random rand = new Random();\r\n        if (validarRango(rango)) {\r\n            int resultado = rand.nextInt(rango) + 1;\r\n            System.out.println(\"El numero aleatorio es: \");\r\n            return resultado;\r\n        }\r\n        System.out.print(\"El rango no es válido: \");\r\n        return rango;\r\n    }\r\n\r\n    // EXTRA: Si el usuario quiere puede añadir valores para que cuando se elija un número aleatorio te devuelva el valor en vez de un número.\r\n//    public List listaValores(List<String> valores) {\r\n//\r\n//    }\r\n\r\n    // Validador para evitar que entren rangos inválidos\r\n    public boolean validarRango(int rango) {\r\n        if (rango <= 0) {\r\n            return false;\r\n        }\r\n        return true;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/es/vedruna/Aleatorio.java b/src/main/java/es/vedruna/Aleatorio.java
+--- a/src/main/java/es/vedruna/Aleatorio.java	(revision 03d6d2c741450b6aa797afa4e9ca584592a5e163)
++++ b/src/main/java/es/vedruna/Aleatorio.java	(date 1749060435220)
+@@ -1,5 +1,6 @@
+ package es.vedruna;
+ 
++import java.util.LinkedList;
+ import java.util.List;
+ import java.util.Random;
+ 
+@@ -17,11 +18,6 @@
+         return rango;
+     }
+ 
+-    // EXTRA: Si el usuario quiere puede añadir valores para que cuando se elija un número aleatorio te devuelva el valor en vez de un número.
+-//    public List listaValores(List<String> valores) {
+-//
+-//    }
+-
+     // Validador para evitar que entren rangos inválidos
+     public boolean validarRango(int rango) {
+         if (rango <= 0) {
