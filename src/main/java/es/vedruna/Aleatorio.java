@@ -19,7 +19,7 @@ public class Aleatorio {
 
     // EXTRA: Si el usuario quiere puede añadir valores para que cuando se elija un número aleatorio te devuelva el valor en vez de un número.
 //    public List listaValores(List<String> valores) {
-//
+//.
 //    }
 
     // Validador para evitar que entren rangos inválidos
