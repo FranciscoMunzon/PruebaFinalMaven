@@ -13,8 +13,8 @@ public class Aleatorio {
             System.out.println("El numero aleatorio es: ");
             return resultado;
         }
-        System.out.print("El rango no es válid");
-        return 'o';
+        System.out.print("El rango no es válido: ");
+        return rango;
     }
 
     // EXTRA: Si el usuario quiere puede añadir valores para que cuando se elija un número aleatorio te devuelva el valor en vez de un número.

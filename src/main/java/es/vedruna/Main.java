@@ -11,9 +11,5 @@ public class Main {
         System.out.print("¿Cuántos números quieres que haya en el aleatorizador?: ");
         int rango = scan.nextInt();
         System.out.print(prueba.numeroAleatorio(rango));
-
-
-
-
     }
 }
