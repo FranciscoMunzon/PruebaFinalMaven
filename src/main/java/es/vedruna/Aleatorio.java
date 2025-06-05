@@ -10,7 +10,7 @@ public class Aleatorio {
         Random rand = new Random();
         if (validarRango(rango)) {
             int resultado = rand.nextInt(rango) + 1;
-            System.out.println("El numero aleatorio es: ");
+            System.out.print("El numero aleatorio es: ");
             return resultado;
         }
         System.out.print("El rango no es válido: ");

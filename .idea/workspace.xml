@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1734762e-a6c2-4391-9398-c83882f50928" name="Changes" comment="Cuarto punto de control">
-      <change afterPath="$PROJECT_DIR$/src/test/java/es/vedruna/AleatorioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/vedruna/Aleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/vedruna/Aleatorio.java" afterDir="false" />
+    <list default="true" id="1734762e-a6c2-4391-9398-c83882f50928" name="Changes" comment="Sexto punto de control">
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/vedruna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/vedruna/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,9 @@
     "Application.Main.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
     "JUnit.AleatorioTest.executor": "Run",
+    "Maven.ProyectoFinalMaven [clean].executor": "Run",
+    "Maven.ProyectoFinalMaven [install].executor": "Run",
+    "Maven.ProyectoFinalMaven [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -173,7 +174,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749060684364</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Quinto punto de control">
+      <option name="closed" value="true" />
+      <created>1749061233023</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749061233023</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Quinto punto de control">
+      <option name="closed" value="true" />
+      <created>1749061540036</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749061540036</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Sexto punto de control">
+      <option name="closed" value="true" />
+      <created>1749061973830</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749061973830</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +207,8 @@
     <MESSAGE value="Merge remote-tracking branch 'GitHub/main'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/es/vedruna/Aleatorio.java&#10;#&#9;src/main/java/es/vedruna/Main.java" />
     <MESSAGE value="Tercer punto de control" />
     <MESSAGE value="Cuarto punto de control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cuarto punto de control" />
+    <MESSAGE value="Quinto punto de control" />
+    <MESSAGE value="Sexto punto de control" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sexto punto de control" />
   </component>
 </project>
